@@ -63,3 +63,4 @@ for (i in 2:length(list_dat)) {
 }
 names(tidy_dat2)[3:ncols]<-paste0("mean_",names(by_activity)[3:ncols])
 write.csv(tidy_dat2, "tidy_mean_dataset.csv")
+write.table(tidy_dat2, file="tidy_mean_dataset.txt", row.name=FALSE)
