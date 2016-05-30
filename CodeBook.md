@@ -137,8 +137,8 @@ The file contains 10299 observations and 68 variables:
 
 ## Presentation of the files tidy_mean_dataset.csv and tidy_mean_dataset.txt
 
-From the data in tidy_data.csv, a second data set with the average of each variable for each activity and each subject has been created and stored in tidy_mean_dataset.csv.
-The file contains 35 observations and 68 variables:  
+From the data in tidy_data.csv, a second data set with the average of each variable for each activity and each subject has been created and stored in tidy_mean_dataset.csv (and .txt).
+The files contain 35 observations and 68 variables:  
 "subject":  id of the subject. number between 1 and 30    
 "activity": activity of the subject among the 6 following possibilities: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS                    
 "mean_tBodyAcc_mean_X"           
