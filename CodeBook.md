@@ -18,8 +18,8 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 We have merged the two sets of data into a single set. 
 
 Two datasets files have been produced from this data:     
--tidy_dataset.csv    
--tidy_mean_dataset.csv
+*tidy_dataset.csv    
+*tidy_mean_dataset.csv
 
 ## Initial data from Human Activity Recognition Using Smartphones Dataset
 In the initial data, the sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
@@ -58,7 +58,7 @@ fBodyGyroMag
 fBodyGyroJerkMag  
 
 Abbreviations:  
-*mean: Mean value
+*mean: Mean value  
 *std: Standard deviation
 
 To this list of variables, we have added "activity" and "subject" which were stored in independant datafiles in the initial dataset.
