@@ -15,7 +15,7 @@ This repository contains the following files:
 
 ## Analysis code
 ### Load libraries
-
+Load the libraries needed for the analysis.
 ```{r}
 library(stringr)
 library(dplyr)
@@ -82,7 +82,7 @@ y_dat<-merge(y_dat, activity_labels, by.col="activity_id")
 ```
 
 ### Create tidy dataset
-Create the final tidy dataset and save it in .csv file.
+Create the final tidy dataset by merging X-variables, activity and subject, and save the resulting dataframe in a .csv file.
 ```{r}
 tidy_dataset<-cbind(subject_dat, select(y_dat, activity), x_dat)
 write.csv(tidy_dataset, "tidy_dataset.csv")
