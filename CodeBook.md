@@ -1,23 +1,24 @@
-==============================================================================================
+Dataset for the Data Cleaning John Hopkins course on Coursera
+=============================================================
 Human Activity Recognition Using Smartphones Datasets for John Hopkins Coursera specialization
-Version 1.0
-==============================================================================================
-Independant work based on the initial Human Activity Recognition Using Smartphones Dataset by:
+
+Independant work based on the initial Human Activity Recognition Using Smartphones Dataset version 1.0 by:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Università degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
-==============================================================================================
+
+## Introduction
 
 The data in this repository has been processed based on the Human Activity Recognition Using Smartphones Dataset presented here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The inital dataset has been was partitioned into two sets: training data and test data.
 We have merged the two sets of data into a single set. 
 
-Two datasets files have been produced from this data: 
--tidy_dataset.csv
+Two datasets files have been produced from this data:     
+-tidy_dataset.csv    
 -tidy_mean_dataset.csv
 
 ## Initial data from Human Activity Recognition Using Smartphones Dataset
@@ -38,39 +39,39 @@ These signals were used to estimate variables for each pattern.
 
 The Inital data presented the following variables, for each of wich we have kept the mean and standard deviation observations: 
 
-tBodyAcc_XYZ
-tGravityAcc_XYZ
-tBodyAccJerk_XYZ
-tBodyGyro_XYZ
-tBodyGyroJerk_XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc_XYZ
-fBodyAccJerk_XYZ
-fBodyGyro_XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyAcc_XYZ  
+tGravityAcc_XYZ  
+tBodyAccJerk_XYZ  
+tBodyGyro_XYZ  
+tBodyGyroJerk_XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc_XYZ  
+fBodyAccJerk_XYZ  
+fBodyGyro_XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
-Abbreviations:
--mean: Mean value
--std: Standard deviation
+Abbreviations:  
+*mean: Mean value
+*std: Standard deviation
 
 To this list of variables, we have added "activity" and "subject" which were stored in independant datafiles in the initial dataset.
 
 ## Complete list of variables in tidy_dataset.csv
 
-The file contains 10299 observations and 68 variables:
-"subject":  id of the subject. number between 1 and 30
-"activity": activity of the subject among the 6 following activities: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS 
-"tBodyAcc_mean_X"
-"tBodyAcc_mean_Y"
-"tBodyAcc_mean_Z"
-"tBodyAcc_std_X"
+The file contains 10299 observations and 68 variables:    
+"subject":  id of the subject. number between 1 and 30    
+"activity": activity of the subject among the 6 following activities: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS     
+"tBodyAcc_mean_X"    
+"tBodyAcc_mean_Y"    
+"tBodyAcc_mean_Z"    
+"tBodyAcc_std_X"    
 "tBodyAcc_std_Y"            
 "tBodyAcc_std_Z"           
 "tGravityAcc_mean_X"        
@@ -131,14 +132,14 @@ The file contains 10299 observations and 68 variables:
 "fBodyBodyAccJerkMag_std"  
 "fBodyBodyGyroMag_mean"     
 "fBodyBodyGyroMag_std"      
-"fBodyBodyGyroJerkMag_mean" 
+"fBodyBodyGyroJerkMag_mean"     
 "fBodyBodyGyroJerkMag_std"
 
 ## Presentation of the file tidy_mean_dataset.csv
 
 From the data in tidy_data.csv, a second data set with the average of each variable for each activity and each subject has been created and stored in tidy_mean_dataset.csv.
 The file contains 35 observations and 68 variables:
-"subject":  id of the subject. number between 1 and 30
+"subject":  id of the subject. number between 1 and 30    
 "activity": activity of the subject among the 6 following activities: LAYING SITTING STANDING WALKING WALKING_DOWNSTAIRS WALKING_UPSTAIRS                    
 "mean_tBodyAcc_mean_X"           
 "mean_tBodyAcc_mean_Y"          
@@ -204,5 +205,5 @@ The file contains 35 observations and 68 variables:
 "mean_fBodyBodyAccJerkMag_std"  
 "mean_fBodyBodyGyroMag_mean"     
 "mean_fBodyBodyGyroMag_std"      
-"mean_fBodyBodyGyroJerkMag_mean" 
+"mean_fBodyBodyGyroJerkMag_mean"     
 "mean_fBodyBodyGyroJerkMag_std"
