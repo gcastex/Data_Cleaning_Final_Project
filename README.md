@@ -6,11 +6,16 @@ Jorge L. Reyes-Ortiz et al. (www.smartlab.ws)
 It was done for the Data Cleaning course from John Hopkins University on Coursera.
 
 This repository contains the following files:
-*CodeBook.md : Presents the data files and their variables.
-*tidy_dataset.csv : First dataset computed from the intial HARUS dataset.
-*tidy_mean_dataset.csv : Second dataset, computed from tidy_dataset.csv by averaging each variable over the subject and activity.
-*run_analysis.R : The script used to read the HARUS dataset and create our derived files.
-*README.md : The present file. Presents the scripts in a more user friendly manner.
+
+CodeBook.md : Presents the data files and their variables.
+
+tidy_dataset.csv : First dataset computed from the intial HARUS dataset.
+
+tidy_mean_dataset.csv : Second dataset, computed from tidy_dataset.csv by averaging each variable over the subject and activity.
+
+run_analysis.R : The script used to read the HARUS dataset and create our derived files.
+
+README.md : The present file. Presents the scripts in a more user friendly manner.
 
 
 ## Analysis code
