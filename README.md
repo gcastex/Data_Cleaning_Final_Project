@@ -13,6 +13,8 @@ tidy_dataset.csv : First dataset computed from the intial HARUS dataset.
 
 tidy_mean_dataset.csv : Second dataset, computed from tidy_dataset.csv by averaging each variable over the subject and activity.
 
+tidy_mean_dataset.txt : Same as tidy_mean_dataset.csv, but in txt format.
+
 run_analysis.R : The script used to read the HARUS dataset and create our derived files.
 
 README.md : The present file. Presents the scripts in a more user friendly manner.
@@ -95,7 +97,7 @@ write.csv(tidy_dataset, "tidy_dataset.csv")
 
 ### Second dataset
 Creation of the second dataset by computing the average of each variable for each activity and subject.
-The second dataset is then save into a .csv file.
+The second dataset is then save into a .csv and .txt file.
 ```{r}
 by_activity<-group_by(tidy_dataset, subject, activity)
 ncols=ncol(by_activity)
@@ -106,4 +108,5 @@ for (i in 2:length(list_dat)) {
 }
 names(tidy_dat2)[3:ncols]<-paste0("mean_",names(by_activity)[3:ncols])
 write.csv(tidy_dat2, "tidy_mean_dataset.csv")
+write.table(tidy_dat2, file="tidy_mean_dataset.txt", row.name=FALSE)
 ```
