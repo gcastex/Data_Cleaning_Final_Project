@@ -135,7 +135,7 @@ The file contains 10299 observations and 68 variables:
 "fBodyBodyGyroJerkMag_mean"     
 "fBodyBodyGyroJerkMag_std"
 
-## Presentation of the file tidy_mean_dataset.csv
+## Presentation of the files tidy_mean_dataset.csv and tidy_mean_dataset.txt
 
 From the data in tidy_data.csv, a second data set with the average of each variable for each activity and each subject has been created and stored in tidy_mean_dataset.csv.
 The file contains 35 observations and 68 variables:  
