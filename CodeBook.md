@@ -61,7 +61,7 @@ Abbreviations:
 mean: Mean value  
 std: Standard deviation
 
-To this list of variables, we have added "activity" and "subject" which were stored in independant datafiles in the initial dataset.
+To this list of variables, we have added "activity" and "subject" which were stored independantly in the initial dataset.
 
 ## Complete list of variables in tidy_dataset.csv
 
