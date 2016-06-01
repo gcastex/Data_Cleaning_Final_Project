@@ -9,7 +9,7 @@ This repository contains the following files:
 
 CodeBook.md : Presents the data files and their variables.
 
-tidy_dataset.csv : First dataset computed from the intial HARUS dataset.
+tidy_dataset.csv : First dataset computed from the initial HARUS dataset.
 
 tidy_mean_dataset.csv : Second dataset, computed from tidy_dataset.csv by averaging each variable over the subject and activity.
 
